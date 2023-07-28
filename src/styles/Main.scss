@@ -1,0 +1,16 @@
+.body {
+  font-family: 'brandon-grotesque', 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none !important;
+  /* IE and Edge */
+  scrollbar-width: none !important;
+  /* Firefox */
+  box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+.wipes-section {
+  display: flex;
+  position: relative;
+  margin-left: 80px;
+  margin-top: 69px;
+}
+
+.wipes-section-green-wrapper {
+  background-color: red;
+  color: #002D33;
+  text-align: left;
+  flex: 0.64;
+  margin-top: 32px;
+  border-radius: 12px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: #DAE5E5 0% 0% no-repeat padding-box;
+  z-index: -1;
+  left: 300px;
+}
+
+.refill {
+  left: 480px;
+  top: 60%
+}

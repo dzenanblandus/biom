@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+
+
+.big-text {
+  text-align: left;
+  font-family: 'Chronicle Display', sans-serif;
+  letter-spacing: 0px;
+  color: #FFFAFA;
+  opacity: 1;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: 'Lora', serif;
+  font-weight: 800;
+}
+
+.small-text {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0px;
+  color: #FFFAFA;
+  opacity: 1;
+  font-size: 18px;
+  width: 500px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+
+}
+
+.bg-section {
+  margin: 64px 45px 0 45px;
+  position: relative;
+  height: 80vh;
+  background: transparent url('../../public/img/Kitchen_3.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+}
+
+.text-container {
+  position: relative;
+  top: 48%;
+  left: 120px;
+  transform: translateY(-50%);
+  width: 700px;
+  color: #fff;
+}
+
+.text-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Chronicle Display', sans-serif;
+
+}
+
+.text-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+.dispenser-section {
+  position: relative;
+  min-height: 760px;
+  max-height: 830px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bg-image {
+  width: 100%;
+  position: absolute;
+  max-height: 830px;
+}
+
+.text-container-right {
+  position: relative;
+  width: 900px;
+  color: #002D33;
+  text-align: left;
+}
+
+.text-container-right h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: 'Chronicle Display', sans-serif;
+}
+
+.text-container-right p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  letter-spacing: 1.95px;
+  color: #004A4C;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: 0;
+  cursor: pointer;
+}
+
+.green {
+  color: #002D33;
+  width: 700px;
+}
+
+.green-button {
+  background-color: #004A4C;
+  color: white;
+}
+
+.meet-biom-scroll {
+  max-width: 200px;
+  max-height: 700px;
+  margin: 10px 0 10px 25px;
+  height: 730px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  position: absolute;
+  left: 15px;
+  z-index: 0;
+  pointer-events: all;
+  overscroll-behavior: contain;
+}
+
+.meet-biom {
+  margin: 0;
+  margin-right: 20px;
+  transform: translateY(-50%) rotate(-90deg);
+  font-size: 160px;
+  font-weight: bolder;
+  color: #F2F2F2;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: font-size 0.3s;
+  padding: 0 50px;
+  padding-right: 0;
+  pointer-events: all;
+}
+
+.meet-biom-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.meet-biom-scroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
